@@ -2,7 +2,7 @@
 
 None of these tests touch a real VLC process or systemd unit -- cli.py's
 dependencies (is_running/start/stop/run_command) are patched directly, the
-a fake systemd layer, the same approach as the RC tests.
+same approach as the RC tests (no fake socket needed at this level).
 """
 
 from __future__ import annotations
